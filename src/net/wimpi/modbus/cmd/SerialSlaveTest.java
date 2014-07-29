@@ -62,7 +62,7 @@ public class SerialSlaveTest {
       //3. Set up serial parameters
       SerialParameters params = new SerialParameters();
       params.setPortName(portname);
-      params.setBaudRate(9600);
+      params.setBaudRate(19200);
       params.setDatabits(8);
       params.setParity("None");
       params.setStopbits(1);
